@@ -1,0 +1,49 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+    background: url(./icons/backgorund.png) center/cover ;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+h2{
+    margin-left: 30px;
+}
+
+ul{
+    font-weight: 600;
+    font-family: Arial;
+}
+
+
+
+li.icon-instagram{
+    list-style-image: url(./icons/Insta.png);
+}
+
+li.icon-twitter{
+    list-style-image: url(./icons/Twitter.png);
+}
+
+li.icon-youtube{
+    list-style-image: url(./icons/Youtube.png);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(40, 19, 174);
+}
+
+a:active{
+   color: tomato;
+}
